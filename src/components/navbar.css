@@ -20,8 +20,12 @@ nav {
   align-items: center;
   position: relative;
 }
+.logo {
+  width: 7rem;
+  display: block;
+}
 .logo span {
-          color: var(--color-secondary);
+  color: var(--color-secondary);
 }
 .nav__links {
   display: flex;
@@ -55,7 +59,7 @@ nav {
     font-size: 1.8rem;
     cursor: pointer;
   }
-  .nav__toggle-btn  {
+  .nav__toggle-btn {
     color: var(--color-gray-100);
   }
   .nav__links {
@@ -66,7 +70,8 @@ nav {
     gap: 0;
   }
 
-  .active-nav, .active-nav::after {
+  .active-nav,
+  .active-nav::after {
     display: none;
   }
   .nav__links li {
@@ -83,9 +88,9 @@ nav {
     padding: 1rem 5rem 1rem 3rem;
   }
   .show__nav {
-          display: flex;
+    display: flex;
   }
   .hide__nav {
-          display: none;
+    display: none;
   }
 }
