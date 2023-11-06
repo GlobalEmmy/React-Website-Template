@@ -117,8 +117,8 @@ export const faqs = [
     id: 6,
     question: "Should I lift weight for strength training?",
     answer: "Exercise should be as regular as possible",
-  }
-]
+  },
+];
 
 export const testimonials = [
   {
@@ -126,20 +126,162 @@ export const testimonials = [
     name: "Jack Hor",
     quote: "Health is everything. Do everything to be healthy 1",
     job: "Students",
-    avatar: require("./images/Image4.jpg")
+    avatar: require("./images/Image4.jpg"),
   },
   {
     id: 2,
     name: "Jack Hor",
     quote: "Health is everything. Do everything to be healthy 2",
     job: "Students",
-    avatar: require("./images/Image4.jpg")
+    avatar: require("./images/Image4.jpg"),
   },
   {
     id: 3,
     name: "Jack Hor",
     quote: "Health is everything. Do everything to be healthy 3",
     job: "Students",
-    avatar: require("./images/Image4.jpg")
-  }
-]
+    avatar: require("./images/Image4.jpg"),
+  },
+];
+
+export const plans = [
+  {
+    id: 1,
+    name: "Silver package",
+    desc: "This package is perfect for beginners who need constant help",
+    price: 29.99,
+    features: [
+      { feature: "First Feature", available: true },
+      { feature: "Second Feature", available: true },
+      { feature: "Third Feature", available: true },
+      { feature: "Fourth Feature", available: true },
+      { feature: "Fifth Feature", available: false },
+      { feature: "Six Feature", available: false },
+      { feature: "Seven Feature", available: false },
+      { feature: "Eight Feature", available: false },
+      { feature: "Nine Feature", available: false },
+      { feature: "Ten Feature", available: false },
+      { feature: "Eleven Feature", available: false },
+    ],
+  },
+  {
+    id: 2,
+    name: "Gold package",
+    desc: "This package is perfect for beginners who know what they doing",
+    price: 49.99,
+    features: [
+      { feature: "First Feature", available: true },
+      { feature: "Second Feature", available: true },
+      { feature: "Third Feature", available: true },
+      { feature: "Fourth Feature", available: true },
+      { feature: "Fifth Feature", available: true },
+      { feature: "Six Feature", available: true },
+      { feature: "Seven Feature", available: true },
+      { feature: "Eight Feature", available: false },
+      { feature: "Nine Feature", available: false },
+      { feature: "Ten Feature", available: false },
+      { feature: "Eleven Feature", available: false },
+    ],
+  },
+  {
+    id: 3,
+    name: "Platinum package",
+    desc: "This package is perfect for busy people who need home service",
+    price: 89.99,
+    features: [
+      { feature: "First Feature", available: true },
+      { feature: "Second Feature", available: true },
+      { feature: "Third Feature", available: true },
+      { feature: "Fourth Feature", available: true },
+      { feature: "Fifth Feature", available: true },
+      { feature: "Six Feature", available: true },
+      { feature: "Seven Feature", available: true },
+      { feature: "Eight Feature", available: true },
+      { feature: "Nine Feature", available: true },
+      { feature: "Ten Feature", available: true },
+      { feature: "Eleven Feature", available: true },
+    ],
+  },
+];
+
+const Trainer1 = require("./images/Image1.jpg");
+const Trainer2 = require("./images/Image2.jpg");
+const Trainer3 = require("./images/Image3.jpg");
+const Trainer4 = require("./images/Image4.jpg");
+const Trainer5 = require("./images/Image4.jpg");
+const Trainer6 = require("./images/Image4.jpg");
+
+export const trainers = [
+  {
+    id: 1,
+    image: Trainer1,
+    name: "John Max",
+    job: "Aerobic Trainer",
+    socials: [
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+    ],
+  },
+  {
+    id: 2,
+    image: Trainer2,
+    name: "Eric Cho",
+    job: "Speed Trainer",
+    socials: [
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+    ],
+  },
+  {
+    id: 3,
+    image: Trainer3,
+    name: "Grace Hamm",
+    job: "Flexibility Trainer",
+    socials: [
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+    ],
+  },
+  {
+    id: 4,
+    image: Trainer4,
+    name: "Felix Ger",
+    job: "Body Composition Trainer",
+    socials: [
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+    ],
+  },
+  {
+    id: 5,
+    image: Trainer5,
+    name: "Paul Mea",
+    job: "Circuit Trainer",
+    socials: [
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+    ],
+  },
+  {
+    id: 6,
+    image: Trainer6,
+    name: "Leo Nuh",
+    job: "Physical Intelligence Trainer",
+    socials: [
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+      "http: //instagram.com/",
+    ],
+  },
+];

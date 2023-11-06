@@ -33,7 +33,7 @@ const Footer = () => {
               <FaFacebookF />
             </Link>
             <Link
-              to="https://linkkedin.com"
+              to="https://web.facebook.com/monyem.emmanuel"
               target="_blank"
               rel="noreferrer noopener"
             >

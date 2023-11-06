@@ -3,7 +3,7 @@ nav {
   display: grid;
   background: var(--color-primary);
   width: 100vw;
-  height: 5rem;
+  height: 5.8rem;
   position: fixed;
   place-items: center;
   top: 0;
